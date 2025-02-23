@@ -1,0 +1,11 @@
+### .astylerc (Configuração para C++)
+style=google  # Usa o estilo Google para um código limpo e moderno
+indent=spaces=4  # Usa 4 espaços para identação
+attach-namespaces  # Mantém os colchetes de namespaces na mesma linha
+attach-classes  # Mantém os colchetes de classes na mesma linha
+attach-inlines  # Mantém os colchetes de funções inline na mesma linha
+max-code-length=100  # Limita o tamanho da linha para 100 caracteres
+pad-oper  # Adiciona espaços ao redor de operadores
+pad-header  # Adiciona espaços entre palavras-chave de controle e parênteses
+align-pointer=type  # Alinha ponteiros com o tipo (ex: `int* ptr` em vez de `int *ptr`)
+align-reference=type  # Alinha referências com o tipo (ex: `int& ref`)
